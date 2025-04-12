@@ -382,3 +382,15 @@ This cybersecurity suite combines:
 
 *Note: This is a demo tool. For production use, enhance with proper authentication and additional security measures.*
 """)
+# ---------- SOCIAL MEDIA FOLLOW SECTION ----------
+st.markdown("""
+<hr style='margin-top:40px;'>
+<div style='text-align:center; font-size:16px; color:#666;'>
+    🔗 Follow <strong>CareerUpskillers</strong> for Career Tips & AI Tools: <br><br>
+
+    <a href='https://www.linkedin.com/company/careerupskillers' target='_blank' style='margin: 0 10px;'>🔗 LinkedIn</a> • 
+    <a href='https://twitter.com/careerupskill' target='_blank' style='margin: 0 10px;'>🐦 Twitter</a> • 
+    <a href='https://instagram.com/careerupskillers' target='_blank' style='margin: 0 10px;'>📸 Instagram</a> • 
+    <a href='https://youtube.com/@careerupskillers' target='_blank' style='margin: 0 10px;'>▶️ YouTube</a>
+</div>
+""", unsafe_allow_html=True)
