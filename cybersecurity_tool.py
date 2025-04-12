@@ -222,6 +222,18 @@ with tab1:
         2. View the phishing probability score
         3. Check feature details for insights
         """)
+        st.markdown("""
+<div style='background-color: #fff8dc; border-left: 5px solid #ffc107; padding: 15px; border-radius: 8px; margin-top: 20px;'>
+  <h4>📉 Laid Off in 2024–25? Now Earning ₹90K–1.7L/Month</h4>
+  <p>After being laid off in Nov 2024, one of our students used this AI Cyber Kit to land freelance security gigs. He now earns over ₹1.2L/month as a phishing detection specialist.</p>
+  <p>📰 As seen on:
+    <a href='https://indianexpress.com/article/technology/tech-layoffs-march-2025-it-layoffs-9919985/' target='_blank'>Indian Express</a> •
+    <a href='https://youtu.be/WZW0xbzUHj8?si=TsObXAUIumP3n53s' target='_blank'>YouTube Video</a>
+  </p>
+  <a href='https://pages.razorpay.com/pl_Q9haRTHXpyB9SS/view' target='_blank' style='background-color:#007bff;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;'>🔐 Get ₹499 AI Security Kit</a>
+</div>
+""", unsafe_allow_html=True)
+
 
 # Tab 2: Vulnerability Scanner
 with tab2:
@@ -297,6 +309,18 @@ with tab2:
                         })
                 except Exception as e:
                     st.error(f"Port scan failed: {str(e)}")
+                    st.markdown("""
+<div style='background-color: #fffbe6; border-left: 5px solid #ff9800; padding: 15px; border-radius: 8px; margin-top: 20px;'>
+  <h4>🛡️ Become a Freelance VAPT Expert</h4>
+  <p>Many students used our ₹499 Kit to start offering web security & vulnerability scans on Fiverr & Internshala. Clients now pay them ₹2K–₹8K per scan!</p>
+  <p>🎥 Watch:
+    <a href='https://youtu.be/vM8Chmkd22o?si=wIGD24ZegI8rj6Zg' target='_blank'>Freelance Security Path</a> •
+    <a href='https://youtu.be/uq_ba4Prjps?si=KW2odA2izyFDsNw6' target='_blank'>₹1L Freelancing Proof</a>
+  </p>
+  <a href='https://pages.razorpay.com/pl_Q9haRTHXpyB9SS/view' target='_blank' style='background-color:#1976d2;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;'>💻 Buy Kit & Start Scanning</a>
+</div>
+""", unsafe_allow_html=True)
+
 
 # Tab 3: SIEM Dashboard
 with tab3:
@@ -370,6 +394,18 @@ with tab3:
                         st.write(f"- {msg}")
         else:
             st.success("No alerts detected")
+            st.markdown("""
+<div style='background-color: #e0f7fa; border-left: 5px solid #00bcd4; padding: 15px; border-radius: 8px; margin-top: 20px;'>
+  <h4>📊 Master SIEM Monitoring – Even As A Fresher!</h4>
+  <p>This ₹499 kit includes a ready-to-use SIEM dashboard + demo alerts. Great for practicing incident detection, threat correlation, and impressing recruiters.</p>
+  <p>🗞 Featured in:
+    <a href='https://www.ndtvprofit.com/business/layoffs-2025-amazon-intel-morgan-stanley-among-companies-cutting-jobs-this-year' target='_blank'>NDTV</a> •
+    <a href='https://youtu.be/3ZmtSdAjxCM?si=h7W4AaezK_6xaBQd' target='_blank'>SIEM Career Insights</a>
+  </p>
+  <a href='https://pages.razorpay.com/pl_Q9haRTHXpyB9SS/view' target='_blank' style='background-color:#00838f;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;'>🎯 Get Your SIEM Toolkit</a>
+</div>
+""", unsafe_allow_html=True)
+
 
 # Footer
 st.markdown("---")
